@@ -1,0 +1,12 @@
+section {
+			padding: 25px;
+			border: 1px solid;
+			margin: 20px;
+			width: 600px;
+			background-color: gray
+
+		}
+	h1 {
+		text-align: centre;
+        display: inline;
+	}

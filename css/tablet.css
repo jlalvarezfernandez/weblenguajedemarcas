@@ -1,0 +1,55 @@
+  body { 
+    grid-template-areas: 
+      "header header"
+      "article article"
+      "div div"
+      "nav nav"
+      "footer footer";
+    grid-template-rows: 130px 1fr 150px 1fr 90px;  
+    grid-template-columns: 1fr 1fr;
+ }
+header, footer, article, nav, div {
+  padding: 1.2em;
+ 
+  }
+#header {
+  grid-area: header;
+  text-align: center;
+  background-color:  #E9E216;
+  }
+#footer {
+  grid-area: footer;
+  text-align: center;
+  background-color:  #E9E216;
+  }
+#article { 
+  grid-area: article;
+  background-color: #FFFCA2;
+  text-align: center;
+  }
+#nav { 
+  grid-area: nav; 
+  background-color: #F7F157;
+ 
+  }
+.navegacion {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+    border: 3px solid blue;
+    text-align: center;
+    }
+a:hover{
+    color: black;
+}
+a:active {
+    color:red;
+}
+#div { 
+  grid-area: div; 
+  background-color:#F7F157;
+  }
+h3 {
+ text-align: center;
+        
+  }

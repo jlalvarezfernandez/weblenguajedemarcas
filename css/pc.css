@@ -1,0 +1,66 @@
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav article div"
+    "footer footer footer";
+  grid-template-rows: 80px 1fr 80px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+
+header, footer, article, nav, div {
+  padding: 1.2em;
+ 
+  }
+
+#header {
+  grid-area: header;
+  text-align: center;
+  background-color: #E9E216;
+  }
+
+#footer {
+  grid-area: footer;
+  text-align: center;
+  background-color: #E9E216;
+  }
+
+#article { 
+  grid-area: article;
+  background-color: #FFFCA2;
+  text-align: center;
+  }
+
+#nav { 
+  grid-area: nav; 
+  background-color: #F7F157;
+  }
+
+.navegacion {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: aliceblue;
+  border: 3px solid blue;
+  text-align: center;
+    }
+
+a:hover{
+  color: black;
+}
+
+a:active {
+  color:red;
+}
+
+#div { 
+  grid-area: div; 
+  background-color: #F7F157;
+  }
+h3 {
+ text-align: center;
+        
+  }

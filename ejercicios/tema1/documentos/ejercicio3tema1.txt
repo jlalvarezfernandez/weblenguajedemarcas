@@ -1,0 +1,41 @@
+//Álvarez Fernández José Luis
+//Cuestionario sobre la introducción de los Lenguajes de Marcas
+
+::título:: 1.¿Que es un lenguaje de marcas?
+
+=Es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación
+
+~Es un programa informático para poder escribir textos
+
+~Es un lenguaje para que los ordenadores se puedan comunicar entre ellos
+
+~Es un lenguaje para que los ordenadores y los seres humanos se puedan comunicar entre ellos
+
+::Título:: 2. ¿En Lenguaje de Marcas, como se pone tu nombre eb¡n negrita?
+
+~ <a> nombre <a>
+
+=<b> nombre </b>
+
+~(b) nombre (b)
+
+~(B) nombre (B)
+
+::Título:: 3. ¿ Cual es el lenguaje de marcas mas usado actualmente?
+
+~latex
+
+=HTML
+
+~SGML
+
+~Word
+
+::Título:: 4. ¿Cual de estas características no pertenece a los Lenguajes de Marcas?
+=Creatividad
+
+~Flexibilidad
+
+~Compacidad
+
+~Facilidad de procesamiento
